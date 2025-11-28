@@ -1,0 +1,12 @@
+{
+  "terminals": [
+    {
+      "terminalId": "PAX01",
+      "name": "PAX01",
+      "ipAddress": "192.168.1.240",
+      "port": 10009,
+      "enabled": true
+    }
+  ],
+  "lastUpdated": "2025-10-19T20:16:47.1747349-04:00"
+}
