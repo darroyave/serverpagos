@@ -1,0 +1,18 @@
+[2025-10-20 13:16:12.745 INF] [1] ═══════════════════════════════════════════════════════
+[2025-10-20 13:16:12.814 INF] [1]   PAX Transaction Server - Sistema de Logging Iniciado
+[2025-10-20 13:16:12.829 INF] [1] ═══════════════════════════════════════════════════════
+[2025-10-20 13:16:12.830 INF] [1] 📁 Ruta de logs: ./Logs
+[2025-10-20 13:16:12.831 INF] [1] 📄 Nombre de archivo: PAXServer
+[2025-10-20 13:16:12.833 INF] [1] 📊 Nivel de log: Debug
+[2025-10-20 13:16:12.834 INF] [1] 🗓️  Retención: 30 días
+[2025-10-20 13:16:12.862 INF] [1] 📂 Cargando 1 terminales desde terminales.json...
+[2025-10-20 13:16:12.929 INF] [1]   ✅ Terminal cargada: PAX01 (192.168.1.240:10009)
+[2025-10-20 13:16:13.196 INF] [1] ✅ 1 terminales cargadas desde archivo
+[2025-10-20 13:16:13.202 INF] [1] 🚀 Iniciando servidor de transacciones PAX...
+[2025-10-20 13:16:13.219 ERR] [1] Error iniciando servidor TCP
+System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   at PAXTransactionServer.Services.TCPServer.StartAsync() in C:\Users\pc\Music\POSLink\PAXTransactionServer\Services\TCPServer.cs:line 50

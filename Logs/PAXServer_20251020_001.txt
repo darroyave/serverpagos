@@ -1,0 +1,16 @@
+[2025-10-20 13:33:49.765 INF] [1] ═══════════════════════════════════════════════════════
+[2025-10-20 13:33:49.892 INF] [1]   PAX Transaction Server - Sistema de Logging Iniciado
+[2025-10-20 13:33:49.892 INF] [1] ═══════════════════════════════════════════════════════
+[2025-10-20 13:33:49.892 INF] [1] 📁 Ruta de logs: ./Logs
+[2025-10-20 13:33:49.892 INF] [1] 📄 Nombre de archivo: PAXServer
+[2025-10-20 13:33:49.893 INF] [1] 📊 Nivel de log: Debug
+[2025-10-20 13:33:49.893 INF] [1] 🗓️  Retención: 30 días
+[2025-10-20 13:33:49.895 FTL] [1] Error fatal en el servidor
+System.IO.IOException: The handle is invalid.
+   at System.ConsolePal.GetBufferInfo(Boolean throwOnNoConsole, Boolean& succeeded)
+   at System.ConsolePal.Clear()
+   at PAXTransactionServer.Program.ShowBanner() in C:\Users\pc\Music\POSLink\PAXTransactionServer\Program.cs:line 83
+   at PAXTransactionServer.Program.Main(String[] args) in C:\Users\pc\Music\POSLink\PAXTransactionServer\Program.cs:line 26
+[2025-10-20 13:33:49.929 INF] [1] ═══════════════════════════════════════════════════════
+[2025-10-20 13:33:49.929 INF] [1]   Cerrando sistema de logging
+[2025-10-20 13:33:49.930 INF] [1] ═══════════════════════════════════════════════════════
